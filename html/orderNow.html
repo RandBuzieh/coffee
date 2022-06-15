@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeHouse</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lobster&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/6b672eb1fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="NB">
+        <img id="logo" src="../media/coffe house.jpg" alt="this is the logo"> <br><br>
+        <a class="nb" href="../index.html">Home</a>&nbsp;&nbsp;
+        <a class="nb" href="../index.html#ourmessage">Our Message</a>&nbsp;&nbsp;
+        <a class="nb" href="../index.html#Location">Location</a>&nbsp;&nbsp;
+        <a class="nb" href="../index.html#contactUs">Contact Us</a>&nbsp;&nbsp;
+    </div>
+
+    <form  method="post">
+        <fieldset>
+            <legend>
+                <h1>order now!!</h1>
+            </legend>
+            First Name: <input type="text" name="fname" id=""> 
+            <br> <br>
+            Last Name: <input type="text" name="Lname" id=""> 
+            <br><br>
+            phone number: <input type="text" name="phone" id=""> 
+            <br><br>
+            <h3>select what you need</h3>
+            <h4>Hot Drinks</h4>
+            <input type="checkbox" name="Latte">Latte
+            <br>&nbsp;&nbsp;
+            number of cups: <input type="number" name="number of cups" id="">
+            <br>
+            <input type="checkbox" name="Hot Chocolate">Hot Chocolate
+            <br>&nbsp;&nbsp;
+            number of cups: <input type="number" name="number of cups" id="">
+            <br>
+            <input type="checkbox" name="Espresso">Espresso
+            <br>&nbsp;&nbsp;
+            number of cups: <input type="number" name="number of cups" id="">
+            <br>
+            <br> <br>
+
+            <h4>Cold Drinks</h4>
+            <input type="checkbox" name="Iced Coffee">Iced Coffee
+            <br>&nbsp;&nbsp;
+            number of cups: <input type="number" name="number of cups" id="">
+            <br>
+            <input type="checkbox" name="Cold Chocolate">Cold Chocolate
+            <br>&nbsp;&nbsp;
+            number of cups: <input type="number" name="number of cups" id="">
+            <br>
+            <input type="checkbox" name="Caramel Frappe">Caramel Frappe
+            <br>&nbsp;&nbsp;
+            number of cups: <input type="number" name="number of cups" id="">
+            <br>
+            <br> <br>
+
+            
+            <h4>Desserts</h4>
+            <input type="checkbox" name="Chocolate and Berries Yogurt Dessert">Chocolate and Berries Yogurt Dessert
+            <br> &nbsp;&nbsp; 
+            number of pices: <input type="number" name="number of pices" id="">
+            <br>
+            <input type="checkbox" name="Japanese Cake">Japanese Cake
+             <br>&nbsp;&nbsp;
+            number of pices: <input type="number" name="number of pices" id="">
+            <br>
+            <input type="checkbox" name="Classic chocolate mousse">Classic chocolate mousse
+            <br>&nbsp;&nbsp;
+            number of pices: <input type="number" name="number of pices" id="">
+            <br>
+            <br> <br>
+            <h3>way of payment</h3>
+            <input type="radio" name="pay" value="card">card
+            <input type="radio" name="pay" value="cash">cash
+            <br> <br>
+            <h3>select your city please</h3>
+            <select name="city" id="">
+                <option value="Amman">Amman</option>
+                <option value="Zarqa">Zarqa</option>
+                <option value="Irbid">Irbid</option>
+                <option value="	Russeifa">Russeifa</option>
+                <option value="Sahab">Sahab</option>
+                <option value="Ar Ramtha">Ar Ramtha</option>
+                <option value="Aqaba">Aqaba</option>
+                <option value="Mafraq">Mafraq</option>
+                <option value="Madaba">Madaba</option>
+                <option value="As-Salt">As-Salt</option>
+            </select>
+
+            <br> <br>
+            <textarea name="" id="" cols="30" rows="10">write your location please</textarea>
+            <br> <br>
+            <!--<input type="submit"  onclick="done()">!-->
+            <button onclick="done()">submit</button>
+            <input type="reset" >
+        </fieldset>
+        <script src="../JavaScript/java.js"></script>
+    </form>
+    <h2 id="copyR"> &copy; Coffe House 2022</h2>
+</body>
