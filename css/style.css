@@ -1,0 +1,177 @@
+img {
+   width: 50%;
+   height: 50%;
+}
+#logo{
+   width: 25%;
+   height: 25%;
+   margin: auto;
+   display: block;
+}
+body,html{
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(216, 226, 220);
+background-image:url(../media/0fb28bfe6439830cc6b27f1c78107f9b.jpg);
+background-repeat: repeat-y;
+background-position: center;
+margin-right:12.5em;
+margin-left:12.5em;
+
+font-family: 'Amatic SC', cursive;
+
+}
+
+video
+{
+   height:100%;
+   width: 100%;
+   margin: auto;
+   display: block;
+}
+.nb:link , .nb:visited{
+   text-align:right;
+   background-color:rgb(244, 172, 183);
+   padding: 15px 25px;
+   text-decoration: none; 
+   font-size: 150%;
+   color:rgb(112, 43, 103);
+   
+ }
+ 
+ .nb:hover{
+   background-color:rgb(157, 129, 137);
+   color:rgb(112, 43, 103);
+
+ }
+
+#Ourmessage 
+{
+   display:block;
+   text-align: left;
+   font-weight: bold;
+   font-size:200%;
+}
+#ourmessage {
+   font-weight: bolder;
+   
+}
+#Ourmessage p
+{
+   font-size: 100%;
+}
+figure
+{
+   margin: auto;
+}
+ figcaption a:link , figcaption a:visited
+{
+   font-size:300%;
+   font-weight: bolder;
+   color:rgb(112, 43, 103);
+} 
+#ourmenuimg:hover , #orderimg:hover{
+   width: 60%;
+   height: 60%;
+}
+#Location 
+{
+   display: inline;
+   text-decoration: underline;
+   color:rgb(199, 19, 175);
+   font-size: 200%;
+}
+
+i{
+   color:rgb(199, 19, 175);
+   
+}
+
+dt{
+   display: inline;
+   font-size: 150%;
+}
+dd{
+   font-size: 150%;
+}
+#MenuThree img{
+   height: 80%;
+   width: 80%;
+}
+#MenuThree img:hover{
+   height: 100%;
+   width: 100%;
+}
+#MenuThree td
+{
+   font-size:300%;
+   text-align: center;
+}
+#HotDrinks  , #ColdDrinks  , #Desserts 
+{
+   border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top:15%;
+}
+#HotDrinks td , #ColdDrinks td , #Desserts td
+{
+   border: 5px solid rgb(108, 158, 128);
+   font-size:200%;
+   text-align:center;
+   width: 500px; 
+
+}
+
+caption
+{
+   font-size:300%;
+   text-align: center;
+}
+#HotDrinks img , #ColdDrinks img , #Desserts img{
+   width: 25%;
+   height:25%;
+   
+}
+
+.slide
+{
+   width: 200%;
+   height: 200%;
+}
+#imgss
+{
+   text-align: center; 
+   
+}
+
+#contactUs :link
+{
+   border: 5px ;
+   padding: 10px;
+   border-style: dashed solid;
+   border-color: blueviolet white;
+   border-radius: 12px;
+   text-decoration: underline;
+   color:rgb(199, 19, 175);
+   font-size: 200%;
+   width: 15%;
+   margin:auto;
+   text-align: center; 
+}
+form
+{
+   font-size: 150%;
+   font-family: 'Joan', serif;
+}
+form h3{
+   display: inline;
+}
+
+#copyR
+{
+   font-size: 150%;
+   font-weight: bolder;
+   text-align: center;
+}
+
