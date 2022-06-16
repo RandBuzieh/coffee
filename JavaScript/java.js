@@ -18,6 +18,5 @@ function showSlides() {
 function done()
 {
   alert("Thank you , We reseved your order ");
-  location.reload();
   
 }
