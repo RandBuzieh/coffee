@@ -32,7 +32,7 @@ video
 .nb:link , .nb:visited{
    text-align:right;
    background-color:rgb(244, 172, 183);
-   padding: 15px 25px;
+   padding: 1em 1em;
    text-decoration: none; 
    font-size: 150%;
    color:rgb(112, 43, 103);
